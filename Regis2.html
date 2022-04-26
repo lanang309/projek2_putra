@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/icon.png" type="image/png" />
+    <title>SIPAK STT-NF</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="vendors/linericon/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <link rel="stylesheet" href="vendors/animate-css/animate.css" />
+    <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body class="hold-transition layout-top-nav">
+    <div class="wrapper">
+      <header class="header_area">
+        <div class="top_menu row m0">
+          <div class="container">
+            <div class="float-left">
+              <ul class="left_side">
+                <li>
+                  <a href="https://www.facebook.com/STTTerpaduNF/">
+                    <i class="fa fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/sttterpadunf1">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/sttterpadunf/">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UC4BS1GoO2d7FOCfcK5jgglw">
+                    <i class="fa fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="float-right">
+              <ul class="right_side">
+                <li>
+                  <a href="https://nurulfikri.ac.id/">
+                    <i class="lnr lnr-phone-handset"></i>
+                    +62 857 1624 3174
+                  </a>
+                </li>
+                <li>
+                  <a href="https://nurulfikri.ac.id/">
+                    <i class="lnr lnr-envelope"></i>
+                    info@nurulfikri.ac.id
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main_menu">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand logo_h" href="index.html">
+                <img src="img/logo.png" alt="" />
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                <div class="row ml-0 w-100">
+                  <div class="col-lg-12 pr-0">
+                    <ul class="nav navbar-nav center_nav pull-right">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Berita</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="regis1.html">Registrasi Kendaraan</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="content-wrapper">
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0">Registrasi User</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <form action="./kendaraan.html" method="post">
+                  <div class="form-group row">
+                    <label class="col-4">Status</label>
+                    <div class="col-8">
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input name="status" id="status_0" type="radio" class="custom-control-input" value="Mahasiswa" />
+                        <label for="status_0" class="custom-control-label">Mahasiswa</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input name="status" id="status_1" type="radio" class="custom-control-input" value="Dosen" />
+                        <label for="status_1" class="custom-control-label">Dosen</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="nim" class="col-4 col-form-label">NIM/NISN</label>
+                    <div class="col-8">
+                      <input id="nim" name="nim" type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="lengkap" class="col-4 col-form-label">Nama Lengkap</label>
+                    <div class="col-8">
+                      <input id="lengkap" name="lengkap" type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="prodi" class="col-4 col-form-label">Prodi</label>
+                    <div class="col-8">
+                      <select id="prodi" name="prodi" class="custom-select">
+                        <option value="TI">Teknik Informatika</option>
+                        <option value="SI">Sistem Informasi</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-4">Jenis Kendaraan</label>
+                    <div class="col-8">
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input name="kendaraan" id="kendaraan_0" type="radio" class="custom-control-input" value="motor" />
+                        <label for="kendaraan_0" class="custom-control-label">Motor</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input name="kendaraan" id="kendaraan_1" type="radio" class="custom-control-input" value="mobil" />
+                        <label for="kendaraan_1" class="custom-control-label">Mobil</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="pol" class="col-4 col-form-label">No.Pol</label>
+                    <div class="col-8">
+                      <input id="pol" name="pol" type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="merk" class="col-4 col-form-label">Merk</label>
+                    <div class="col-8">
+                      <input id="merk" name="merk" type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="stnk" class="col-4 col-form-label">Upload STNK</label>
+                    <div class="col-8">
+                      <div class="input-group">
+                        <input id="stnk" name="stnk" type="text" class="form-control" />
+                        <div class="input-group-append">
+                          <div class="btn btn-primary">Browse</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="offset-4 col-8">
+                      <button name="submit" type="submit" class="btn btn-primary">Daftar</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="main-footer">
+        <p class="col-lg-8 col-sm-12 footer-text m-0">Develop By Kinfolk TI06 - STT NF</p>
+      </footer>
+    </div>
+
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="dist/js/adminlte.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/icon.png" type="image/png" />
+    <title>SIPAK STT-NF</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+  </head>
+  <body class="hold-transition layout-top-nav">
+    <div class="wrapper">
+      <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand logo_h" href="index.html">
+              <img src="img/logo.png" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <div class="row ml-0 w-100">
+                <div class="col-lg-12 pr-0">
+                  <ul class="nav navbar-nav center_nav pull-right">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="departments.html">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="doctors.html">Registrasi Kendaraan</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="doctors.html">Login</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="content-wrapper">
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0">Registrasi User</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <form action="./Regis2.html" method="post">
+                  <div class="form-group row">
+                    <label for="Search_bar" class="col-4 col-form-label">Cari Sifitas Akademi</label>
+                    <div class="col-8">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <div class="btn btn-primary">
+                            <i class="fa fa-search"></i>
+                          </div>
+                        </div>
+                        <input id="Search_bar" name="Search_bar" placeholder="Search" type="text" class="form-control" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="Nama" class="col-4 col-form-label">Nama Lengkap</label>
+                    <div class="col-8">
+                      <textarea id="Nama" name="Nama" cols="40" rows="1" class="form-control"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="Prodi" class="col-4 col-form-label">Asal Prodi</label>
+                    <div class="col-8">
+                      <textarea id="Prodi" name="Prodi" cols="40" rows="1" class="form-control"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="Username" class="col-4 col-form-label">Username</label>
+                    <div class="col-8">
+                      <input id="Username" name="Username" type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="Password" class="col-4 col-form-label">Password</label>
+                    <div class="col-8">
+                      <input id="Password" name="Password" type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="Password_2" class="col-4 col-form-label">Cek Password</label>
+                    <div class="col-8">
+                      <input id="Password_2" name="Password_2" type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="offset-4 col-8">
+                      <button name="submit" type="submit" class="btn btn-primary">Daftar</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="main-footer">
+        <p class="col-lg-8 col-sm-12 footer-text m-0">Develop By Kinfolk TI06 - STT NF</p>
+      </footer>
+    </div>
+
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="dist/js/adminlte.min.js"></script>
+  </body>
+</html>
